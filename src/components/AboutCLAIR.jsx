@@ -4,7 +4,7 @@ import ellips_2 from '../assets/image/svg/ellips2.svg'
 import man_ellips from '../assets/image/svg/man_elliops.svg'
 const AboutCLAIR = () => {
     return (
-        <section className=' bg_color mt--2 position-relative'>
+        <section className=' bg_color mt--2 position-relative' id='section6'>
             <div className=' container max-w-1140 pt-50 pb-62' >
                 <div className='box_section_2 mx-auto '>
                     <div className=' row flex-column-reverse flex-md-row'>

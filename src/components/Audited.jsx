@@ -11,14 +11,14 @@ import ellips_5 from '../assets/image/svg/ellips-5.svg'
 import ellips_6 from '../assets/image/svg/ellisp-6.svg'
 const Audited = () => {
   return (
-   <section className=' Audited_bg position-relative mt--2  '>
+   <section className=' Audited_bg position-relative mt--2  ' id='section3'>
     <div className=' container max-w-1140 pt-158 pb-160  ' >
         <div className='row pb-84' >
             <div className='z-3 col-lg-6 col-12 d-flex justify-content-center '>
                <div className=' position-relative'>
-               <img src={security} alt="security" />
+               <img  className=' cursor z-3 '   src={security} alt="security" />
                <div className=' position-absolute position_security'>
-                <img className='z-3 black-1' src={position_secu} alt="position_secu" />
+                <img className=' black-1' src={position_secu} alt="position_secu" />
                </div>
                </div>
             </div>
@@ -45,12 +45,12 @@ const Audited = () => {
             <div className='col-lg-6 d-flex  justify-content-lg-end justify-content-center'>
                 <div className='slider_box    pb-25'>
                     <div className='d-flex z-3  overflow-hidden gap-32 overflow-x-scroll '>
-                    <img src={slider_img_1} alt="slider_img_1" />
-                    <img src={slider_img_2} alt="slider_img_1" />
-                    <img src={slider_img_3} alt="slider_img_1" />
-                    <img src={slider_img_4} alt="slider_img_1" />
-                    <img src={slider_img_5} alt="slider_img_1" />
-                    <img src={slider_img_6} alt="slider_img_1" />
+                    <img className=' cursor ' src={slider_img_1} alt="slider_img_1" />
+                    <img className=' cursor '  src={slider_img_2} alt="slider_img_1" />
+                    <img className=' cursor '  src={slider_img_3} alt="slider_img_1" />
+                    <img className=' cursor '  src={slider_img_4} alt="slider_img_1" />
+                    <img  className=' cursor '  src={slider_img_5} alt="slider_img_1" />
+                    <img  className=' cursor '  src={slider_img_6} alt="slider_img_1" />
                     </div>
                     <div className=' d-flex  mt-25 gap-16'>
                     <div className=' first_line'></div>

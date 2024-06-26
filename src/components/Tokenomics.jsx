@@ -7,7 +7,7 @@ import circle_img_2 from '../assets/image/svg/circle_img_2.svg'
 import eppips_4 from '../assets/image/svg/ellips-4.svg'
 const Tokenomics = () => {
     return (
-        <section className=' tokenomics_bg position-relative'>
+        <section className=' tokenomics_bg position-relative' id="section2" >
             <div className='  container max-w-1140 pt-104 pb-98'>
                 <div className='row z-3 pb-60 flex-column-reverse flex-lg-row'>
                     <div className='col-lg-6 col-12 d-flex align-items-center pt__30 justify-content-lg-start justify-content-center'>
@@ -67,13 +67,13 @@ const Tokenomics = () => {
                         <img className=' w-100 max-w-491' src={Tokenomics_img} alt="Tokenomics_img" />
                     </div>
                 </div>
-                <div className='token_box d-none z-3 mx-auto w-100 d-flex align-items-center justify-content-between gap-20 '>
+                <div className='token_box z-3 mx-auto  mt-4 mt-sm-0  flex-md-nowrap flex-wrap w-100 d-flex align-items-center justify-content-md-between justify-content-center text-center text-md-start gap-20 '>
 
                     <div className='z-3 gap-20 d-flex'>
                         <div className='circle_img  z-3 d-flex justify-content-center align-items-center'>
                             <img src={circle_img} className=' z-3 ' alt="circle_img" />
                         </div>
-                        <img src={plus} className=' z-3' alt="plus" />
+                        <img src={plus} className='w-20 z-3' alt="plus" />
                         <div className='circle_img z-3  d-flex justify-content-center align-items-center'>
                             <img className=' z-3 ' src={circle_img_2} alt="circle_img" />
                         </div>

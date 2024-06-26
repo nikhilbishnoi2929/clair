@@ -7,7 +7,7 @@ import line_roadmap from '../assets/image/svg/lineroadmap.svg'
 import elleps_8 from '../assets/image/svg/ellips-8.svg'
 const Roadmap = () => {
     return (
-        <section className=' roadmap_bg position-relative mt--2'>
+        <section className=' roadmap_bg position-relative mt--2' id='section4'>
             <div className=' container max-w-1080 pb-366'>
                 <div className=' d-flex justify-content-center  pt-71'>
                     <h3 className=' manrope mb-0 fw-600 fs-4xl line-57 white-1 text-center  '>Roadmap</h3>
@@ -26,7 +26,7 @@ const Roadmap = () => {
                                     <li className=' manrope z-3 fw-500 fs-md line-24 para-color  pt_8 team_card ' > Community Growth</li>
                                     <li className=' manrope z-3 fw-500 fs-md line-24 para-color  pt_8 team_card ' >AI Avatars Release</li>
                                 </ul>
-                                <div className=' position-absolute d-none d-md-block position_circleline' >
+                                <div className=' position-absolute d-none d-lg-block position_circleline' >
                                     <img src={card_p} alt="card_p" />
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const Roadmap = () => {
                                     <li className=' manrope z-3 fw-500 fs-md line-24 para-color  pt_8 team_card ' > Influencers Marketing</li>
                                     <li className=' manrope z-3 fw-500 fs-md line-24 para-color  pt_8 team_card ' >More AI Avatars Release</li>
                                 </ul>
-                                <div className=' position-absolute  d-none d-md-block position_circleline_2' >
+                                <div className=' position-absolute  d-none d-lg-block position_circleline_2' >
                                     <img src={card_2} alt="card_p" />
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ const Roadmap = () => {
                                     <li className=' manrope z-3 fw-500 fs-md line-24 para-color max-w-201  pt_8 team_card ' > AI Metaverse Avatar Play-to-Earn</li>
 
                                 </ul>
-                                <div className=' position-absolute  d-none d-md-block w-100 position_circleline_4' >
+                                <div className=' position-absolute  d-none d-lg-block w-100 position_circleline_4' >
                                     <img src={card_3} alt="card_p" />
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ const Roadmap = () => {
             <div className=' position-absolute z-0 elleps_7'> 
                 <img src={elleps_7} alt="" />
             </div>
-            <div className=' position-absolute z-0 elleps_8'> 
+            <div className=' position-absolute z-2 elleps_8'> 
                 <img src={elleps_8} alt="" />
             </div>
         </section>

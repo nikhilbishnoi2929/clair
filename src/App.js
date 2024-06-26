@@ -16,15 +16,15 @@ function App() {
   return (
     <div className=' overflow-hidden'>
        <>
-    {/* <Herosection/> */}
+    <Herosection/>
     <AboutCLAIR/>
     <SmartContract/>
     <Tokenomics/>
     <Audited/>
     <Roadmap/>
     <Frequently/>
-    {/* <Socials/> */}
-    {/* <Lastsection/> */}
+    <Socials/>
+    <Lastsection/>
     </>
     </div>
   );

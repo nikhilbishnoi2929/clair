@@ -2,12 +2,12 @@
      /* font-size */
      --fs-sm: 14px;
      --fs-md: 14px;
-     --fs-lg: 20px;
+     --fs-lg: 16px;
      --fs-xl: 24px;
      --fs-xxl: 32px;
      --fs-3xl: 30px;
      --fs-4xl: 31px;
-     --fs-5xl: 60px;
+     --fs-5xl: 46px;
 
 
      /* font-weight */
@@ -23,12 +23,12 @@
      
      --line-20: 20px;
      --line-21: 21px;
-     --line-24: 24px;
-     --line-30: 30px;
+     --line-24: 20px;
+     --line-30: 23px;
      --line-36: 36px;
-     --line-48: 48px;
+     --line-48: 35px;
      --line-57: 42px;
-     --line-72: 72px;
+     --line-72: 45px;
    
      /* color */
      --white : #FFFFFF;
@@ -170,7 +170,7 @@ color: var(--bg-color);
    --fs-xxl: 32px;
    --fs-3xl: 40px;
    --fs-4xl: 44px;
-   --fs-5xl: 60px;
+   --fs-5xl: 50px;
 
 
    /* font-weight */
@@ -191,7 +191,7 @@ color: var(--bg-color);
    --line-36: 36px;
    --line-48: 48px;
    --line-57: 40px;
-   --line-72: 72px;
+   --line-72: 50px;
  
  
 
