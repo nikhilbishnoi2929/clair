@@ -13,7 +13,7 @@ const Socials = () => {
     <div className=' social_box z-3  mx-auto position-relative '>
         <div className=' d-flex justify-content-center '>
             <div className='z-3 d-flex flex-column align-items-center'>
-                <h3 className=' white-1 mb-0 manrope fw-500  fs-4xl line-57 text-center'>Our <span className=' yellow'> Socials</span></h3>
+                <h3 className=' white-1 mb-0 manrope fw-600  fs-4xl line-57 text-center'>Our <span className=' yellow'> Socials</span></h3>
                 <p className=' fs-md mb-0 para-color-3 manrope fw-400 line-24 pt-16 text-center '>Join us on social media for exclusive giveaways and stay connected!</p>
                 <p className=' fs-lg mb-0 yellow manrope fw-500 line-24 pt-32 text-center'>“Exciting Releases of 'Bad Players' Avatars Coming Soon: Be Ready for the Fun!"</p>
                 <div className=' d-flex z-3 gap-16 pt-32'>

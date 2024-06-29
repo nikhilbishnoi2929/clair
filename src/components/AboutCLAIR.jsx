@@ -1,10 +1,16 @@
-import React from 'react'
-import bgimg2 from '../assets/image/svg/section2img.svg'
+
+import bgimg2 from '../assets/image/svg/section_2_img.svg'
 import ellips_2 from '../assets/image/svg/ellips2.svg'
 import man_ellips from '../assets/image/svg/man_elliops.svg'
-const AboutCLAIR = () => {
+import clock from '../assets/image/svg/clock.svg'
+import dots from '../assets/image/svg/dubledot.svg'
+
+const AboutCLAIR = ({ timestamp }) => {
+    
+   
     return (
-        <section className=' bg_color mt--2 position-relative' id='section6'>
+        <section className=' bg_color mt--2 position-relative ' id='section6'>
+            
             <div className=' container max-w-1140 pt-50 pb-62' >
                 <div className='box_section_2 mx-auto '>
                     <div className=' row flex-column-reverse flex-md-row'>
@@ -39,7 +45,7 @@ const AboutCLAIR = () => {
                                         </svg>
 
                                     </div>
-                                    <div className='four_box cursor  d-flex z-3  justify-content-center align-items-center'>
+                                    <div className='four_box d-flex z-3  justify-content-center align-items-center'>
                                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_3139_24)">
                                                 <path d="M15 0C23.2833 0 30 6.71667 30 15C30 23.2833 23.2833 30 15 30C6.71667 30 0 23.2875 0 15C0 6.7125 6.71667 0 15 0Z" fill="#F1F1F1" />
@@ -54,7 +60,7 @@ const AboutCLAIR = () => {
 
 
                                     </div>
-                                    <div className='four_box cursor  d-flex  z-3 justify-content-center align-items-center'>
+                                    <div className='four_box d-flex  z-3 justify-content-center align-items-center'>
                                         <svg width="19" height="30" viewBox="0 0 19 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_3139_29)">
                                                 <path d="M9.20694 0L9.00586 0.683453V20.5157L9.20694 20.7164L18.4128 15.2748L9.20694 0Z" fill="#F1F1F1" />
@@ -72,7 +78,7 @@ const AboutCLAIR = () => {
                                         </svg>
 
                                     </div>
-                                    <div className='four_box cursor  d-flex  z-3  justify-content-center align-items-center'>
+                                    <div className='four_box d-flex  z-3  justify-content-center align-items-center'>
                                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.1771 12.6056L15.0037 6.78146L20.8326 12.6104L24.2209 9.21965L15.0037 0L5.78638 9.21728L9.1771 12.6056Z" fill="#F1F1F1" />
                                             <path d="M0 15.0011L3.38836 11.6104L6.77909 15.0011L3.38836 18.3894L0 15.0011Z" fill="#F1F1F1" />
@@ -83,10 +89,61 @@ const AboutCLAIR = () => {
 
                                     </div>
                                 </div>
-                                <button className=' manrope z-3 fw-700 w-100 fs-md line-24 black btn_buy mt-32'>Buy Now</button>
-                            </div>                      </div>
-                        <div className='col-md-7 col-12 d-flex justify-content-end justify-content-center  '>
-                            <img className='   cursor  w-100 max-w-404' src={bgimg2} alt="bgimg2" />
+                                <button className=' manrope z -3 fw-700 w-100 fs-md line-24 black btn_buy mt-32'>Buy Now</button>
+                            </div>
+                        </div>
+                        <div className='col-md-7 col-12 d-flex justify-content-end justify-content-center z-3 '>
+                            <div className=' d-flex flex-column'>
+                                <img className='z-3 w-100 max-w-404' src={bgimg2} alt="bgimg2" />
+                                <h4 className=' manrope mb-0 para-color-3 fw-400 fs-sm line-21 pt-6'>Purchase $Clair fast until the price increase.</h4>
+                                <div>
+                                    <div className=' d-flex pt-28 justify-content-md-between justify-content-center align-items-center flex-md-nowrap flex-wrap  '>
+                                        <div className=' d-flex  gap-10 align-items-center '>
+                                            <div>
+                                                <img className='w-100' src={clock} alt="clock" />
+                                            </div>
+                                            <h5 className=' mb-0 manrope fw-400  fs-md line-20 white-1 max-w-80'>Price
+                                                increase in</h5>
+                                        </div>
+                                        <div className=' d-flex  gap-8  pt-2 pt-sm-0'>
+                                            <div className=' d-flex w_50 flex-column text-center'>
+                                                <h5 className=' manrope fw-400 fs-sm mb-0 line-21  para-color-3 '>Days</h5>
+                                                <div className=' clock_box d-flex justify-content-center align-items-center'>
+                                                    <h3 className=' manrope fw-400 fs-xl line-36 mb-0 white-1 '>00</h3>
+                                                </div>
+                                            </div>
+                                            <div className=' d-flex justify-content-end align-items-end pb-12'>
+                                                <img src={dots} alt="dots" />
+                                            </div>
+                                            <div className=' d-flex w_50 flex-column text-center'>
+                                                <h5 className=' manrope fw-400 mb-0  fs-sm line-21  para-color-3 '>Hours</h5>
+                                                <div className=' clock_box d-flex justify-content-center align-items-center'>
+                                                    <h3 className=' manrope fw-400 fs-xl line-36 mb-0 white-1 '>12</h3>
+                                                </div>
+                                            </div>
+                                            <div className=' d-flex justify-content-end align-items-end pb-12'>
+                                                <img src={dots} alt="dots" />
+                                            </div> <div className=' d-flex w_50 flex-column text-center'>
+                                                <h5 className=' manrope fw-400 fs-sm mb-0  line-21  para-color-3 '>Mins</h5>
+                                                <div className=' clock_box d-flex justify-content-center align-items-center'>
+                                                    <h3 className=' manrope fw-400 fs-xl line-36 mb-0 white-1 '>46</h3>
+                                                </div>
+                                            </div>
+                                            <div className=' d-flex justify-content-end align-items-end pb-12'>
+                                                <img src={dots} alt="dots" />
+                                            </div> <div className=' d-flex w_50 flex-column text-center'>
+                                                <h5 className=' manrope fw-400 fs-sm mb-0  line-21  para-color-3 '>Secs</h5>
+                                                <div className=' clock_box d-flex justify-content-center align-items-center'>
+                                                    <h3 className=' manrope fw-400 fs-xl line-36 mb-0 white-1 '>19</h3>
+                                                </div>
+                                            </div>
+                                            <div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -96,7 +153,7 @@ const AboutCLAIR = () => {
                         <p className=' manrope z-3  fw-400 fs-md line-24 para-color-3 mb-0 max-w-776 pt-16'>As you navigate through the avatars, you'll find each one has a unique voice, bringing laughter and a touch of sarcasm to the otherwise serious discussions in the crypto space.</p>
                         <p className=' manrope z-3  fw-400 fs-md line-24 para-color-3 mb-0 pt-12 max-w-764 pt-16'>In a landscape where tensions can run high, Baby Sinclair’s memes serve as a reminder that, sometimes, the best way to confront challenges is with a good laugh.</p>
                         <p className=' manrope  z-3 fw-400 fs-md line-24 para-color-3 pt-12 mb-0 max-w-856 pt-16'>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for change, and Baby Sinclair is wielding it with style. The bad players better watch out; the crypto defender is here, armed with memes and ready to act.</p>
-                        <button className=' manrope z-3  fw-700 fs-md line-24 black text-nowrap mt-32 btn_learn'>Learn More</button>
+                        <button className=' manrope z-3 mb-1  fw-700 fs-md line-24 black text-nowrap mt-32 btn_learn'>Learn More</button>
 
                     </div>
                 </div>

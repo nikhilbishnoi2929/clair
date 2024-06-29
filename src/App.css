@@ -14,7 +14,7 @@
   bottom: 20px;
   right: 20px;
   background-color: transparent;
- border: 1px solid var(--yellow);
+  border: 1px solid var(--yellow);
   padding: 20px 20px;
   cursor: pointer;
   border-radius: 5px;
@@ -22,10 +22,12 @@
   border-radius: 100px;
   transition: all 400ms linear;
 }
-.back-to-top-btn:hover{
+
+.back-to-top-btn:hover {
   box-shadow: 0px 0px 15px 0px var(--yellow);
 }
-.last_ellips{
+
+.last_ellips {
   top: -120px;
   left: 0;
   z-index: 1;
@@ -57,9 +59,37 @@
   border: 1px solid var(--yellow);
 }
 
+.pt-6 {
+  padding-top: 6px
+}
+
+ 
+.w_50 {
+  width: 50px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
+}
+.pt-28{
+  padding-top: 28px;
+}
+
+.clock_box {
+  width: 50px;
+  height: 40px;
+  border-radius: 4px;
+  background: #FFF62433;
+  margin-top: 2px;
+}
+
 .dropdown-content a {
   color: var(--white);
-  padding: 12px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   display: block;
 }
@@ -95,7 +125,7 @@
   border-bottom: 1px solid #F1F1F129;
   padding-top: 26px;
   padding-bottom: 26px;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(10px);
 }
 
 .max-w-1140 {
@@ -247,6 +277,7 @@
   content: "";
   position: absolute;
   inset: 0;
+  z-index: -1 !important;
   z-index: 0 !important;
   border-radius: 20px;
   padding: 1px;
@@ -260,6 +291,7 @@
 
 .bg_color {
   background: var(--bg-color);
+  z-index: 0 !important;
 }
 
 .mt--2 {
@@ -722,13 +754,15 @@
 .social_box {
   max-width: 840px;
   border-radius: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
   background: #FFFFFF0A;
   position: relative;
   backdrop-filter: blur(100px);
   padding-top: 50px;
   padding-bottom: 40px;
   background: var(--black);
-  background-image: url(../src/assets/image/png/social_bg.png);
+  background-image: url(../src/assets/image/png/social_bg_2.png);
   background-size: cover;
   background-position: center;
 
@@ -941,7 +975,7 @@
   padding: 0px 12px 12px 12px !important;
   border-radius: 0px 0px 8px 8px !important;
 }
- 
+
 .box_ellips {
   top: 0;
   left: 0;
@@ -1027,6 +1061,10 @@
   opacity: 0.2;
 }
 
+.image_p {
+  pointer-events: none;
+}
+
 .mt-25 {
   margin-top: 25px;
 }
@@ -1042,7 +1080,9 @@
 .overflow_hidden {
   overflow: hidden;
 }
-
+ .z_3{
+  z-index: 3 ;
+ }
 @media (min-width: 992px) {
   .pt-78 {
     padding-top: 78px;
@@ -1051,9 +1091,11 @@
   .pt-184 {
     padding-top: 184px;
   }
-  .min-vh_100{
+
+  .min-vh_100 {
     min-height: 100vh;
   }
+ 
 
 }
 
@@ -1061,9 +1103,11 @@
   .pt__30 {
     padding-top: 30px;
   }
-.gap-60{
-  gap: 40px;
-}
+
+  .gap-60 {
+    gap: 40px;
+  }
+
   .pt-84 {
     padding-top: 84px;
   }
@@ -1096,14 +1140,18 @@
   .pt-120 {
     padding-top: 80px;
   }
+  .box_section_2{
+    padding: 20px;
+  }
 }
  
-
 @media (max-width: 767.9px) {
   .pt--30 {
     padding-top: 30px;
   }
-
+  .z_3{
+    z-index: -3 ;
+   }
   .pt-177 {
     padding-top: 90px;
   }
@@ -1126,13 +1174,14 @@
     justify-content: center !important;
     flex-direction: column;
     top: 0;
+    left: -100%;
     transition: all 500ms linear;
     background: var(--black);
-    min-height: 100vh !important;
-    position: absolute;
+    backdrop-filter: blur(20px) !important;
+   height: 100vh !important;
+    position: fixed;
     z-index: 100 !important;
-    width: 100%;
-
+    width: 100% !important;
   }
 
 
@@ -1160,14 +1209,7 @@
     rotate: -48deg;
   }
 
-  .navShow {
-    right: 0;
-  }
-
-  .navhide {
-    right: -100%;
-  }
-
+ 
   .pb-366 {
     padding-bottom: 40px;
   }
@@ -1208,7 +1250,7 @@
   }
 
   .pb-160 {
-    padding-bottom: 146px;
+    padding-bottom: 116px;
   }
 
   .freq_bg {
@@ -1226,14 +1268,20 @@
 
 }
 
+@media (min-width: 575px) {
+  .max-w-80 {
+    max-width: 80px;
+  }
+  
+}
 @media (max-width: 575px) {
   .pt-100 {
     padding-top: 40px;
   }
 
   .px-152 {
-    padding-top: 108px;
-    padding-bottom: 108px;
+    padding-top: 86px;
+    padding-bottom: 94px;
   }
 
   .pb-62 {
@@ -1248,12 +1296,20 @@
     padding-top: 0;
   }
 
+  .pt-60 {
+    padding-top: 40px;
+  }
+
   .pb-98 {
     padding-bottom: 0;
   }
 
   .pb-60 {
     padding-bottom: 0;
+  }
+
+  .pt-49 {
+    padding-top: 40px;
   }
 
   .pb-366 {

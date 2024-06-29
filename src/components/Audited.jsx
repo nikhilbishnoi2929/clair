@@ -44,13 +44,13 @@ const Audited = () => {
                       </div>
             <div className='col-lg-6 d-flex  justify-content-lg-end justify-content-center'>
                 <div className='slider_box    pb-25'>
-                    <div className='d-flex z-3  overflow-hidden gap-32 overflow-x-scroll '>
-                    <img className=' cursor ' src={slider_img_1} alt="slider_img_1" />
-                    <img className=' cursor '  src={slider_img_2} alt="slider_img_1" />
-                    <img className=' cursor '  src={slider_img_3} alt="slider_img_1" />
-                    <img className=' cursor '  src={slider_img_4} alt="slider_img_1" />
-                    <img  className=' cursor '  src={slider_img_5} alt="slider_img_1" />
-                    <img  className=' cursor '  src={slider_img_6} alt="slider_img_1" />
+                    <div className='d-flex z-3    gap-32 overflow-x-scroll '>
+                    <img className=' cursor image_p' src={slider_img_1} alt="slider_img_1" />
+                    <img className=' cursor image_p'  src={slider_img_2} alt="slider_img_1" />
+                    <img className=' cursor image_p'  src={slider_img_3} alt="slider_img_1" />
+                    <img className=' cursor image_p'  src={slider_img_4} alt="slider_img_1" />
+                    <img  className=' cursor image_p'  src={slider_img_5} alt="slider_img_1" />
+                    <img  className=' cursor image_p'  src={slider_img_6} alt="slider_img_1" />
                     </div>
                     <div className=' d-flex  mt-25 gap-16'>
                     <div className=' first_line'></div>
