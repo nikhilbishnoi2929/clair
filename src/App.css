@@ -1142,7 +1142,20 @@
   }
   .box_section_2{
     padding: 20px;
-  }
+  }.pt-71 {
+    padding-top: 32px;
+}.pt-124 {
+  padding-top: 56px;
+}
+.pb-98{
+  padding-bottom: 50px;
+}
+.pt-104{
+  padding-top: 60px;
+}
+.pb-62{
+  padding-bottom: 40px;
+}
 }
  
 @media (max-width: 767.9px) {
