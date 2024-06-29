@@ -42,12 +42,16 @@
      --box-bg: #313131;
      --circle-bg: #191919;
      --border-circle: #3C3C3C;
-     
-
+     --accordian: #272717;
+--box-bg:#131310;
 
  }
-
-
+.box-bg{
+   color: var(--box-bg);
+}
+.accordian{
+   color: var(--accordian);
+}
  .line-20{
    line-height: var(--line-20);
  }

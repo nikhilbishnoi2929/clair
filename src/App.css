@@ -9,8 +9,29 @@
   box-sizing: border-box !important;
 }
 
-/* dropdown */
+.back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+ border: 1px solid var(--yellow);
+  padding: 20px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1000;
+  border-radius: 100px;
+  transition: all 400ms linear;
+}
+.back-to-top-btn:hover{
+  box-shadow: 0px 0px 15px 0px var(--yellow);
+}
+.last_ellips{
+  top: -120px;
+  left: 0;
+  z-index: 1;
+}
 
+/* dropdown */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -25,6 +46,15 @@
   min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+}
+
+.cirlce_media {
+  transition: all 400ms linear;
+}
+
+.cirlce_media:hover {
+  box-shadow: 0px 0px 5px 0px var(--yellow);
+  border: 1px solid var(--yellow);
 }
 
 .dropdown-content a {
@@ -453,7 +483,7 @@
   max-width: 1140px;
   border-radius: 16px;
   padding: 32px 75px;
-  background: #FFFFFF0F;
+  background: var(--box-bg);
   position: relative;
 
 }
@@ -886,14 +916,15 @@
 /* accordion */
 .accordion-button {
   padding: 12px !important;
+  border-radius: 8px !important;
   font-size: 16px !important;
   color: var(--para-color) !important;
-  background-color: #FFFFFF14 !important;
+  background-color: var(--accordian) !important;
 }
 
 .accordion-button:not(.collapsed) {
   color: var(--white) !important;
-  background: #FFFFFF14 !important;
+  background: var(--accordian) !important;
   box-shadow: none !important;
   font-weight: 600 !important;
 }
@@ -901,16 +932,16 @@
 .accordion-button:focus {
   z-index: 3;
   border-color: none !important;
-  background: #FFFFFF14 !important;
+  background: var(--accordian) !important;
   box-shadow: none !important;
 }
 
 .accordion-body {
-  background: #FFFFFF14 !important;
+  background: var(--accordian) !important;
   padding: 0px 12px 12px 12px !important;
-  border-radius: 8px !important;
+  border-radius: 0px 0px 8px 8px !important;
 }
-
+ 
 .box_ellips {
   top: 0;
   left: 0;
@@ -1003,10 +1034,15 @@
 .pt-71 {
   padding-top: 71px;
 }
- 
-.overflow_hidden{
+
+.pt_50 {
+  padding-top: 50px;
+}
+
+.overflow_hidden {
   overflow: hidden;
 }
+
 @media (min-width: 992px) {
   .pt-78 {
     padding-top: 78px;
@@ -1015,6 +1051,9 @@
   .pt-184 {
     padding-top: 184px;
   }
+  .min-vh_100{
+    min-height: 100vh;
+  }
 
 }
 
@@ -1022,7 +1061,9 @@
   .pt__30 {
     padding-top: 30px;
   }
-
+.gap-60{
+  gap: 40px;
+}
   .pt-84 {
     padding-top: 84px;
   }
@@ -1056,8 +1097,9 @@
     padding-top: 80px;
   }
 }
+ 
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .pt--30 {
     padding-top: 30px;
   }
@@ -1076,6 +1118,54 @@
 
   .pt-100 {
     padding-top: 60px;
+  }
+
+  .mobile_view {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+    top: 0;
+    transition: all 500ms linear;
+    background: var(--black);
+    min-height: 100vh !important;
+    position: absolute;
+    z-index: 100 !important;
+    width: 100%;
+
+  }
+
+
+
+  .bar {
+    width: 26px;
+    height: 3px;
+    z-index: 100 !important;
+    background: var(--yellow);
+    transition: all 400ms linear;
+  }
+
+  .cross .bar:nth-child(1) {
+    transform: translateY(8px);
+    rotate: 45deg;
+  }
+
+  .cross .bar:nth-child(2) {
+    transform: translateX(-100%);
+    display: none;
+  }
+
+  .cross .bar:nth-child(3) {
+    transform: translateY(-8px);
+    rotate: -48deg;
+  }
+
+  .navShow {
+    right: 0;
+  }
+
+  .navhide {
+    right: -100%;
   }
 
   .pb-366 {
@@ -1133,23 +1223,7 @@
     padding-top: 40px;
   }
 
-  .mobile_view {
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background: var(--yellow);
-    position: fixed;
-   
-    top: 0;
-    z-index: 10;
-    transition: 400ms linear;
-  }
-  .right_100{
-    right: -100%;
-  }
+
 }
 
 @media (max-width: 575px) {
@@ -1244,4 +1318,17 @@
   .w-20 {
     width: 20px;
   }
+
+  .pt-50 {
+    padding-top: 30px;
+  }
+
+  .pt_50 {
+    padding-top: 70px;
+  }
+
+  .max-w-155 {
+    max-width: 155px;
+  }
+
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import lastellips from '../assets/image/svg/lastsection_ellips.svg'
 const Lastsection = () => {
     return (
         <footer className=' footer_bg  mt--2  position-relative'>
@@ -12,28 +12,28 @@ const Lastsection = () => {
                             the crypto defender is here, armed with memes and ready to act.</p>
                         <ul className=' z-3 mb-0 ps-0 d-flex gap-32 flex-wrap text-center justify-content-center pt-50'>
                             <li>
-                                <a href="" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>About</a>
+                                <a href="#section1" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>About</a>
                             </li>
                             <li>
-                                <a href="" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Tokenomics</a>
+                                <a href="#section2" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Tokenomics</a>
                             </li>
                             <li>
-                                <a href="" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Audit</a>
+                                <a href="#section3" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Audit</a>
                             </li>
                             <li>
-                                <a href="" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Roadmap</a>
+                                <a href="#section4" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Roadmap</a>
                             </li>
                             <li>
-                                <a href="" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>White Paper</a>
+                                <a href="#section5" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>White Paper</a>
                             </li>
                             <li>
-                                <a href="" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Privacy   </a>
+                                <a href="#section6" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Privacy   </a>
                             </li>
                             <li>
-                                <a href="" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Cookies</a>
+                                <a href="#section7" className=' manrope under_hover fw-500 fs-md line-24  para-color-2'>Cookies</a>
                             </li>
                             <li>
-                                <a href="" className=' manrope  under_hover fw-500 fs-md line-24  para-color-2'>Disclaimer</a>
+                                <a href="#section8" className=' manrope  under_hover fw-500 fs-md line-24  para-color-2'>Disclaimer</a>
                             </li>
                         </ul>
                     </div>
@@ -45,7 +45,10 @@ const Lastsection = () => {
                 </div>
             </div>
             <div className=' footer_liner position-absolute'></div>
-       <div className=' footer_liner_2 position-absolute'></div>
+            <div className=' position-absolute last_ellips'>
+                <img src={lastellips} alt="lastellips" />
+            </div>
+            <div className=' footer_liner_2 position-absolute'></div>
         </footer>
     )
 }

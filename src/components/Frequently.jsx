@@ -10,8 +10,8 @@ const Frequently = () => {
         </div>
         <div className=' max-w-800 pt-60 mx-auto'>
         <Accordion defaultActiveKey="0" >
-                                <Accordion.Item eventKey="0"data-aos="fade-left z-3">
-                                    <Accordion.Header className=' manrope fw-400 fs-md line-24 para-color-3 '>WHAT IS $CLAIR?</Accordion.Header>
+                                <Accordion.Item eventKey="0"data-aos="fade-left z-3 ">
+                                    <Accordion.Header className=' manrope fw-400   fs-md line-24 para-color-3 '>WHAT IS $CLAIR?</Accordion.Header>
                                     <Accordion.Body className=' '>
                                         <span className=' manrope fw-400 fs-md line-24 para-color-3'>
                                             Built on the Ethereum blockchain and powered by the most advanced<span className=' d-lg-block'></span>AI technology, Baby Sinclair has the potential to make millions.   </span>

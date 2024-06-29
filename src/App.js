@@ -11,23 +11,23 @@ import Roadmap from './components/Roadmap';
 import Socials from './components/Socials';
 import Lastsection from './components/Lastsection';
 import Frequently from './components/Frequently';
+import BackToTopButton from './components/BackToTopButton';
 
 function App() {
   return (
     <div className=' overflow-hidden'>
-       <>
-    <Herosection/>
-    <AboutCLAIR/>
-    <SmartContract/>
-    <Tokenomics/>
-    <Audited/>
-    <Roadmap/>
-    <Frequently/>
-    <Socials/>
-    <Lastsection/>
-    </>
+      <Herosection />
+      <AboutCLAIR />
+      <SmartContract />
+      <Tokenomics />
+      <Audited />
+      <Roadmap />
+      <Frequently />
+      <Socials />
+      <Lastsection />
+      <BackToTopButton />
     </div>
-  );
+  )
 }
 
 export default App;

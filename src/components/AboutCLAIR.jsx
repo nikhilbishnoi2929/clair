@@ -24,7 +24,7 @@ const AboutCLAIR = () => {
                                     </div>
                                 </div>
                                 <div className=' d-flex pt-16 gap-14'>
-                                    <div className='four_box d-flex z-3  justify-content-center align-items-center'>
+                                    <div className='four_box cursor d-flex z-3  justify-content-center align-items-center'>
                                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_3139_19)">
                                                 <path d="M15 30C23.3125 30 30 23.3125 30 15C30 6.68745 23.3125 0 15 0C6.68745 0 0 6.68745 0 15C0 23.3125 6.68745 30 15 30Z" fill="#F1F1F1" />
@@ -39,7 +39,7 @@ const AboutCLAIR = () => {
                                         </svg>
 
                                     </div>
-                                    <div className='four_box d-flex z-3  justify-content-center align-items-center'>
+                                    <div className='four_box cursor  d-flex z-3  justify-content-center align-items-center'>
                                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_3139_24)">
                                                 <path d="M15 0C23.2833 0 30 6.71667 30 15C30 23.2833 23.2833 30 15 30C6.71667 30 0 23.2875 0 15C0 6.7125 6.71667 0 15 0Z" fill="#F1F1F1" />
@@ -54,7 +54,7 @@ const AboutCLAIR = () => {
 
 
                                     </div>
-                                    <div className='four_box d-flex  z-3 justify-content-center align-items-center'>
+                                    <div className='four_box cursor  d-flex  z-3 justify-content-center align-items-center'>
                                         <svg width="19" height="30" viewBox="0 0 19 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_3139_29)">
                                                 <path d="M9.20694 0L9.00586 0.683453V20.5157L9.20694 20.7164L18.4128 15.2748L9.20694 0Z" fill="#F1F1F1" />
@@ -72,7 +72,7 @@ const AboutCLAIR = () => {
                                         </svg>
 
                                     </div>
-                                    <div className='four_box d-flex  z-3  justify-content-center align-items-center'>
+                                    <div className='four_box cursor  d-flex  z-3  justify-content-center align-items-center'>
                                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.1771 12.6056L15.0037 6.78146L20.8326 12.6104L24.2209 9.21965L15.0037 0L5.78638 9.21728L9.1771 12.6056Z" fill="#F1F1F1" />
                                             <path d="M0 15.0011L3.38836 11.6104L6.77909 15.0011L3.38836 18.3894L0 15.0011Z" fill="#F1F1F1" />
@@ -85,8 +85,8 @@ const AboutCLAIR = () => {
                                 </div>
                                 <button className=' manrope z-3 fw-700 w-100 fs-md line-24 black btn_buy mt-32'>Buy Now</button>
                             </div>                      </div>
-                        <div className='col-md-7 col-12 d-flex justify-content-end justify-content-center z-3 '>
-                            <img className='z-3 w-100 max-w-404' src={bgimg2} alt="bgimg2" />
+                        <div className='col-md-7 col-12 d-flex justify-content-end justify-content-center  '>
+                            <img className='   cursor  w-100 max-w-404' src={bgimg2} alt="bgimg2" />
                         </div>
                     </div>
                 </div>
