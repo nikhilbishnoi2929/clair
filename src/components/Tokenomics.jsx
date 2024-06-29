@@ -10,7 +10,7 @@ const Tokenomics = () => {
         <section className=' tokenomics_bg position-relative' id="section2" >
             <div className='  container max-w-1140 pt-104 pb-98'>
                 <div className='row z-3 pb-60 flex-column-reverse flex-lg-row'>
-                    <div className='col-lg-6 col-12 d-flex align-items-center pt__30 justify-content-lg-start justify-content-center'>
+                    <div className='col-lg-6 col-12 d-flex align-items-center pt__30 justify-content-lg-start justify-content-center' data-aos="fade-up-right">
                         <div className=' d-flex flex-column text-center text-lg-start'>
                             <h3 className=' fw-600 line-57 mb-0 manrope fs-4xl white-1 '>Tokenomics</h3>
                             <div className=' d-flex  align-items-center gap-16 pt-20 justify-content-center justify-content-lg-start'>
@@ -63,11 +63,11 @@ const Tokenomics = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=' col-lg-6 col-12 justify-content-lg-end justify-content-center d-flex '>
+                    <div className=' col-lg-6 col-12 justify-content-lg-end justify-content-center d-flex '  data-aos="fade-up-left">
                         <img className=' w-100 max-w-491' src={Tokenomics_img} alt="Tokenomics_img" />
                     </div>
                 </div>
-                <div className='token_box z-3 mx-auto  mt-4 mt-sm-0  flex-md-nowrap flex-wrap w-100 d-flex align-items-center justify-content-md-between justify-content-center text-center text-md-start gap-20 '>
+                <div className='token_box z-3 mx-auto  mt-4 mt-sm-0  flex-md-nowrap flex-wrap w-100 d-flex align-items-center justify-content-md-between justify-content-center text-center text-md-start gap-20 ' data-aos="flip-left">
 
                     <div className='z-3 gap-20 d-flex'>
                         <div className='circle_img  z-3 d-flex justify-content-center align-items-center'>

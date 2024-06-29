@@ -9,7 +9,7 @@ const Herosection = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 1441) {
+      if (window.innerWidth < 768) {
         document.body.style.overflow = show ? "visible" : "hidden";
       } else {
         document.body.style.overflow = "";
@@ -73,8 +73,8 @@ return (
 
       </nav>
     </div>
-    <div className=' container max-w-1140' id=' '>
-      <div className='    d-flex justify-content-center  align-items-center pt_50'>
+    <div className=' container max-w-1140' id='section1'>
+      <div className='    d-flex justify-content-center  align-items-center pt_50' data-aos="flip-left">
         <div className='   d-flex flex-column align-items-center '>
           <h1 className='  manrope fw-700 fs-5xl line-72 mb-0 white-1  text-center'>Presale is  <span className=' yellow'>Live</span></h1>
           <p className='   para-color-2 mb-0 fw-400 fs-md line-24 pt-16 max-w-702 text-center manrope '> Led by the most advanced AI technology, with a unique burn system to potentially increase its value significantly. Secure your chance to become the next millionaire!</p>
@@ -88,7 +88,7 @@ return (
               </clipPath>
             </defs>
           </svg>
-          </span></button><img className=' w-100 max-w-810' src={heroimg} alt="heroimg" />
+          </span></button><img className=' w-100 max-w-810' src={heroimg} alt="heroimg"  />
         </div>
       </div>
     </div>

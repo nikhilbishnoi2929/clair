@@ -14,7 +14,7 @@ const Audited = () => {
    <section className=' Audited_bg position-relative mt--2  ' id='section3'>
     <div className=' container max-w-1140 pt-158 pb-160  ' >
         <div className='row pb-84' >
-            <div className='z-3 col-lg-6 col-12 d-flex justify-content-center '>
+            <div className='z-3 col-lg-6 col-12 d-flex justify-content-center ' data-aos="fade-up-right">
                <div className=' position-relative'>
                <img  className=' cursor z-3 '   src={security} alt="security" />
                <div className=' position-absolute position_security'>
@@ -22,7 +22,7 @@ const Audited = () => {
                </div>
                </div>
             </div>
-            <div className=' col-lg-6 z-3 pt-84 col-12 d-flex align-items-center justify-content-center justify-content-lg-start' >
+            <div className=' col-lg-6 z-3 pt-84 col-12 d-flex align-items-center justify-content-center justify-content-lg-start'data-aos="fade-up-left" >
                <div className=' d-flex flex-column text-center text-lg-start'>
                <h3 className=' fw-400 fs-lg line-30 mb-0 manrope para-color '>Rest easy knowing that $CLAIR is </h3>
                 <h4 className=' yellow manrope  fw-600 fs-xxl mb-0 line-48 pt-10'>Fully Audited and 100% Secure.</h4>
@@ -35,14 +35,14 @@ const Audited = () => {
         </div>
         <div className='tok_line'></div>
         <div className=' row ms-0 pt-49 flex-column-reverse flex-lg-row'>
-            <div className=' col-lg-6 pt__30 d-flex justify-content-lg-end justify-content-center'>
+            <div className=' col-lg-6 pt__30 d-flex justify-content-lg-end justify-content-center'  data-aos="fade-up-right">
                 <div className=' d-flex flex-column text-center text-lg-start'>
                 <h3  className=' manrope mb-0 fw-600 white-1 z-3 line-48 fs-xxl '>Listing on  <span className='yellow'>Major Exchanges </span></h3>
                 <p className=' mb-0  manrope fs-lg pt-16 line-30 para-color max-w-475'> Baby Sinclair’s Team is in action to secure the  <span className='yellow'>$CLAIR</span> listing on major exchanges. Exciting milestones ahead.</p>
       
                 </div>
                       </div>
-            <div className='col-lg-6 d-flex  justify-content-lg-end justify-content-center'>
+            <div className='col-lg-6 d-flex  justify-content-lg-end justify-content-center' data-aos="fade-up-left">
                 <div className='slider_box    pb-25'>
                     <div className='d-flex z-3    gap-32 overflow-x-scroll '>
                     <img className=' cursor image_p' src={slider_img_1} alt="slider_img_1" />
@@ -62,10 +62,10 @@ const Audited = () => {
             </div>
         </div>
     </div>
-    <div className=' ellips_5 position-absolute z-0'>
+    <div className=' ellips_5 position-absolute d-none d-md-block z-0'>
         <img src={ellips_5} alt="ellips_5" />
     </div>
-    <div className=' ellips_6 position-absolute z-0'>
+    <div className=' ellips_6 position-absolute d-none d-md-block z-0'>
         <img src={ellips_6} alt="ellips_5" />
     </div>
    </section>

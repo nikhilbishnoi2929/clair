@@ -14,7 +14,7 @@ const AboutCLAIR = ({ timestamp }) => {
             <div className=' container max-w-1140 pt-50 pb-62' >
                 <div className='box_section_2 mx-auto '>
                     <div className=' row flex-column-reverse flex-md-row'>
-                        <div className='col-md-5 col-12 pt--30 d-flex justify-content-center justify-content-md-start  z-3 '>
+                        <div className='col-md-5 col-12 pt--30 d-flex justify-content-center justify-content-md-start  z-3  '  data-aos="fade-right">
                             <div className=' d-flex flex-column'>
                                 <div className=' z-3  d-flex gap-28'>
                                     <div className=' z-3  d-flex flex-column'>
@@ -92,7 +92,7 @@ const AboutCLAIR = ({ timestamp }) => {
                                 <button className=' manrope z -3 fw-700 w-100 fs-md line-24 black btn_buy mt-32'>Buy Now</button>
                             </div>
                         </div>
-                        <div className='col-md-7 col-12 d-flex justify-content-end justify-content-center z-3 '>
+                        <div className='col-md-7 col-12 d-flex justify-content-end justify-content-center z-3 ' data-aos="fade-left">
                             <div className=' d-flex flex-column'>
                                 <img className='z-3 w-100 max-w-404' src={bgimg2} alt="bgimg2" />
                                 <h4 className=' manrope mb-0 para-color-3 fw-400 fs-sm line-21 pt-6'>Purchase $Clair fast until the price increase.</h4>
@@ -147,7 +147,7 @@ const AboutCLAIR = ({ timestamp }) => {
                         </div>
                     </div>
                 </div>
-                <div className=' d-flex z-3  justify-content-center pt-100 '>
+                <div className=' d-flex z-3  justify-content-center pt-100 ' data-aos="flip-left">
                     <div className=' d-flex z-3 flex-column text-center align-items-center'>
                         <h3 className=' manrope z-3 mb-0 fs-4xl line-57 white-1 fw-700 '>About <span className='yellow'> $CLAIR</span></h3>
                         <p className=' manrope z-3  fw-400 fs-md line-24 para-color-3 mb-0 max-w-776 pt-16'>As you navigate through the avatars, you'll find each one has a unique voice, bringing laughter and a touch of sarcasm to the otherwise serious discussions in the crypto space.</p>

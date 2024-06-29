@@ -10,10 +10,10 @@ const Roadmap = () => {
         <section className=' roadmap_bg position-relative mt--2' id='section4'>
             <div className=' container max-w-1080 pb-366'>
                 <div className=' d-flex justify-content-center  pt-71'>
-                    <h3 className=' manrope mb-0 fw-600 fs-4xl line-57 white-1 text-center  '>Roadmap</h3>
+                    <h3 className=' manrope mb-0 fw-600 fs-4xl line-57 white-1 text-center  ' data-aos="flip-left">Roadmap</h3>
                 </div>
                 <div className=' row pt-100'>
-                    <div className=' col-lg-4 col-md-6 col-12 z-3   '>
+                    <div className=' col-lg-4 col-md-6 col-12 z-3   ' data-aos="flip-left">
                         <div className='w-100 d-flex justify-content-md-end justify-content-center  pt-184'>
                             <div className=' card_roadmap  position-relative w-100'>
                                 <h3 className=' manrope fw-500 fs-xxl  z-3 line-48 mb-0 white'>Phase 1</h3>
@@ -33,7 +33,7 @@ const Roadmap = () => {
                         </div>
 
                     </div>
-                    <div className=' col-lg-4 col-md-6 col-12  z-3 pt--30      '>
+                    <div className=' col-lg-4 col-md-6 col-12  z-3 pt--30      '  data-aos="flip-left">
                         <div className='d-flex justify-content-lg-center justify-content-md-start justify-content-center w-100 pt-78'>
                             <div className=' w-100 card_roadmap position-relative'>
                                 <h3 className=' manrope fw-500 fs-xxl  z-3 line-48 mb-0 white'>Phase 2</h3>
@@ -52,7 +52,7 @@ const Roadmap = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=' col-lg-4  col-12 z-3  pt__30 '>
+                    <div className=' col-lg-4  col-12 z-3  pt__30 '  data-aos="flip-left">
                         <div className='d-flex justify-content-lg-start justify-content-center '>
                             <div className=' position-relative card_roadmap w-100'>
                                 <h3 className=' manrope fw-500 fs-xxl  z-3 line-48 mb-0 white'>Phase 3</h3>

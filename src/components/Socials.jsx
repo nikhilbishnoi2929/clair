@@ -10,7 +10,7 @@ const Socials = () => {
   return (
   <section className=' bg-black mt--2 position-relative'>
     <div className=' container max-w-1140 pt-124 pb-34'>'
-    <div className=' social_box z-3  mx-auto position-relative '>
+    <div className=' social_box z-3  mx-auto position-relative ' data-aos="flip-up">
         <div className=' d-flex justify-content-center '>
             <div className='z-3 d-flex flex-column align-items-center'>
                 <h3 className=' white-1 mb-0 manrope fw-600  fs-4xl line-57 text-center'>Our <span className=' yellow'> Socials</span></h3>

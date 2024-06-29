@@ -5,7 +5,7 @@ const SmartContract = () => {
     return (
         <section className='bg_img_3 mt--2 position-relative '>
             <div className=' container max-w-1140 px-152'>
-                <div className=' d-flex justify-content-center '>
+                <div className=' d-flex justify-content-center  ' data-aos="flip-right">
                     <div className=' d-flex flex-column  align-items-center text-center'>
                         <h3 className=' mb-0  manrope  fw-600 line-57 fs-4xl white-1 '> <span className='yellow'> $CLAIR</span> Smart Contract Address</h3>
                         <div className=' d-flex w-100 justify-content-center pt-24 '>
