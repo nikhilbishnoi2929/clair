@@ -9,6 +9,7 @@ import slider_img_5 from '../assets/image/svg/slider_img_5.svg'
 import slider_img_6 from '../assets/image/svg/slider_img_6.svg'
 import ellips_5 from '../assets/image/svg/ellips-5.svg'
 import ellips_6 from '../assets/image/svg/ellisp-6.svg'
+
 const Audited = () => {
   return (
    <section className=' Audited_bg position-relative mt--2  ' id='section3'>
@@ -64,10 +65,12 @@ const Audited = () => {
     <div className=' ellips_5 position-absolute d-none d-md-block z-0'>
         <img src={ellips_5} alt="ellips_5" />
     </div>
+
     <div className=' ellips_6 position-absolute d-none d-md-block z-0'>
         <img src={ellips_6} alt="ellips_5" />
     </div>
    </section>
+
   )
 }
 
