@@ -58,7 +58,6 @@ const Audited = () => {
                     <div className=' third_line'></div>
                 </div>
                 </div>
-               
             </div>
         </div>
     </div>

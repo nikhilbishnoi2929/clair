@@ -4,10 +4,7 @@ import ellips_2 from '../assets/image/svg/ellips2.svg'
 import man_ellips from '../assets/image/svg/man_elliops.svg'
 import clock from '../assets/image/svg/clock.svg'
 import dots from '../assets/image/svg/dubledot.svg'
-
 const AboutCLAIR = ({ timestamp }) => {
-    
-   
     return (
         <section className=' bg_color mt--2 position-relative ' id='section6'>
             
@@ -167,5 +164,4 @@ const AboutCLAIR = ({ timestamp }) => {
         </section>
     )
 }
-
 export default AboutCLAIR
